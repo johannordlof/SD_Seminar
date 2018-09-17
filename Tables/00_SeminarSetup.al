@@ -39,9 +39,6 @@ table 123456700 "CSD Seminar Setup"
         }
     }
     
-    var
-        myInt : Integer;
-
     trigger OnInsert();
     begin
     end;

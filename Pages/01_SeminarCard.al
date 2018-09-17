@@ -12,7 +12,7 @@ page 123456701 "CSD Seminar Card"
             {
                 field("No."; "No.")
                 {
-                    AssistEdit = true;//?
+                    AssistEdit = true; //ger en knapp med ...
                     trigger OnAssistEdit();
                     begin
                         if AssistEdit then
@@ -88,9 +88,8 @@ page 123456701 "CSD Seminar Card"
             {
                 action("Co&mments")
                 {
-                    //RunObject=page "CSD Seminar Comment Sheet";
-                    //RunPageLink = "Table Name"= const(Seminar),
-                    // "No."=field("No.");
+                    RunObject=page "CSD Seminar Comment Sheet";
+                    RunPageLink = "Table Name"= const(Seminar), "No."=field("No.");
                     Image = Comment;
                     Promoted = true;
                     PromotedIsBig = true;
