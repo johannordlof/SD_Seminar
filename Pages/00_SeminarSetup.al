@@ -17,7 +17,7 @@ page 123456700 "CSD Seminar Setup"
                 {
 
                 }
-                field("Seminar Registrations Nos."; "Seminar Registrations Nos.")
+                field("Seminar Registration Nos."; "Seminar Registration Nos.")
                 {
 
                 }
