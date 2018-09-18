@@ -4,6 +4,7 @@ page 123456706 "CSD Seminar Comment Sheet"
     SourceTable = "CSD Seminar Comment Line";
     Caption = 'CSD Seminar Comment Sheet';
     AutoSplitKey = true;
+    UsageCategory = Lists;
 
     layout
     {
