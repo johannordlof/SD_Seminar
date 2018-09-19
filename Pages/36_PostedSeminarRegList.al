@@ -70,7 +70,7 @@ page 123456736  "CSD Posted Seminar Reg. List"
                     Image = Comment;
                     RunObject = Page 123456706;
                     RunPageLink = "No."=Field("No.");
-                    RunPageView = where("Document Type"=const("Posted Seminar Registration"));
+                    RunPageView = where("Table Name"=const("Posted Seminar Registration"));
                 }
                 action("&Charges")
                 {
