@@ -4,7 +4,7 @@ page 123456734  "CSD Posted Seminar Reg."
     //   Chapter 7 - Lab 3
     //     - Created new page
 
-    Caption = 'Seminar Registration';
+    Caption = 'Posted Seminar Registration';
     Editable = false;
     PageType = Document;
     SourceTable = "CSD Posted Seminar Reg. Header";
@@ -52,7 +52,7 @@ page 123456734  "CSD Posted Seminar Reg."
                 {
                 }
             }
-            part(SeminarRegistrationLines;123456735)
+            part(SeminarRegistrationLines; "CSD Post Seminar Reg. Subpage")
             {
                 SubPageLink = "Document No."=Field("No.");
             }
@@ -127,7 +127,7 @@ page 123456734  "CSD Posted Seminar Reg."
                 {
                     Caption = 'Co&mments';
                     Image = Comment;
-                    RunObject = Page 123456706;
+                    RunObject = page "CSD Seminar Comment List";
                     RunPageLink = "No."=Field("No.");
                     RunPageView = where("Table Name"=const("Posted Seminar Registration"));
                 }
@@ -135,7 +135,7 @@ page 123456734  "CSD Posted Seminar Reg."
                 {
                     Caption = '&Charges';
                     Image = Costs;
-                    RunObject = Page 123456739;
+                    RunObject = Page  "CSD Posted Seminar Charges";
                     RunPageLink = "Document No."=Field("No.");
                 }
             }

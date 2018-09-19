@@ -319,7 +319,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table - Field</note>
         </trans-unit>
         <trans-unit id="Table 3775708622 - Field 2825077820 - Property 2879900210" maxWidth="999" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Instructor Code</source>
+          <source>Instructor Resource No</source>
           <note from="Developer" annotates="general" priority="2" />
           <note from="Xliff Generator" annotates="general" priority="3">Table - Field</note>
         </trans-unit>
@@ -354,7 +354,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table - Field</note>
         </trans-unit>
         <trans-unit id="Table 3775708622 - Field 1594896662 - Property 2879900210" maxWidth="999" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Room Code</source>
+          <source>Room Resource No</source>
           <note from="Developer" annotates="general" priority="2" />
           <note from="Xliff Generator" annotates="general" priority="3">Table - Field</note>
         </trans-unit>

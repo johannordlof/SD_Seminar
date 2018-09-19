@@ -4,11 +4,12 @@ page 123456736  "CSD Posted Seminar Reg. List"
     //   Chapter 7 - Lab 3
     //     - Created new page
 
-    Caption = 'Seminar Registration List';
+    Caption = 'Posted Seminar Registration List';
     CardPageID =  "CSD Posted Seminar Reg.";
     Editable = false;
     PageType = List;
     SourceTable = "CSD Posted Seminar Reg. Header";
+    UsageCategory=Documents;
 
     layout
     {
@@ -68,7 +69,7 @@ page 123456736  "CSD Posted Seminar Reg. List"
                 {
                     Caption = 'Co&mments';
                     Image = Comment;
-                    RunObject = Page 123456706;
+                    RunObject = page "CSD Seminar Comment List";
                     RunPageLink = "No."=Field("No.");
                     RunPageView = where("Table Name"=const("Posted Seminar Registration"));
                 }

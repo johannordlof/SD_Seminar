@@ -8,13 +8,9 @@ table 123456732 "CSD Seminar Ledger Entry"
 
     fields
     {
-        field(1;"Journal Template Name";Code[10])
+        field(1;"Entry No.";Integer)
         {
-            Caption = 'Journal Template Name';
-        }
-        field(2;"Line No.";Integer)
-        {
-            Caption = 'Line No.';
+            Caption = 'Entry No.';
         }
         field(3;"Seminar No.";Code[20])
         {
@@ -138,22 +134,22 @@ table 123456732 "CSD Seminar Ledger Entry"
             Caption = 'Reason Code';
             TableRelation = "Reason Code";
         }
-        field(35;"Posting No. Series";Code[10])
+        field(35;"No. Series";Code[10])
         {
-            Caption = 'Posting No. Series';
+            Caption = 'No. Series';
             TableRelation = "No. Series";
+        }
+        field(36;"User ID";Code[50])
+        {
+            Caption = 'User ID';
         }
     }
 
     keys
     {
-        key(Key1;"Journal Template Name","Journal Batch Name","Line No.")
+        key(Key1;"Entry No.")
         {
         }
-    }
-
-    fieldgroups
-    {
     }
 }
 
