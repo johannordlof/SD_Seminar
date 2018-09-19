@@ -3,6 +3,7 @@ report 123456701 "CSD SeminarRegParticipantList"
     Caption = 'Seminar Reg.-Participant List';
     UsageCategory = ReportsAndAnalysis;
     DefaultLayout = RDLC;
+    RDLCLayout='./Layouts/SeminarRegParticipantList.rdl';
 
     dataset
     {
